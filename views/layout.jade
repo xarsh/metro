@@ -3,14 +3,16 @@ html
   head
     meta(charset='utf8')
     meta(http-equiv='X-UA-Compatible', content='IE=edge, chrome=1')
-    meta(name='description', content='description of your site')
-    meta(name='author', content= "author of the site")
+    meta(name='description', content='Tokyo Metro 3D map')
+    meta(name='author', content='Takao Naito (xarsh@outlook.com)')
 
-    title= title
+    title Tokyo Metro 3D map
     
     link(rel='stylesheet', href='css/master.css')
   body
-    != content
-
-    //- add other scripts through require.js, not here
-    script(data-main="js/main", src="js/require.js")
+    .title 
+      p 東京メトロ 3D路線図
+      p <a href="http://xar.sh">Takao Naito</a>
+    script(src='js/three.min.js')
+    script(src="js/orbitcontrols.js")
+    script(src='js/metro.js')
