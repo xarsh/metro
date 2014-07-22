@@ -1,0 +1,1140 @@
+{
+  "ginza": [
+    {
+      "station_name": "浅草",
+      "lon": 315,
+      "lat": -219,
+      "alt": 28
+    },
+    {
+      "station_name": "田原町",
+      "lon": 274,
+      "lat": -224,
+      "alt": 74
+    },
+    {
+      "station_name": "稲荷町",
+      "lon": 225,
+      "lat": -216,
+      "alt": 57
+    },
+    {
+      "station_name": "上野",
+      "lon": 192,
+      "lat": -214,
+      "alt": 65
+    },
+    {
+      "station_name": "上野広小路",
+      "lon": 166,
+      "lat": -237,
+      "alt": 63
+    },
+    {
+      "station_name": "末広町",
+      "lon": 159,
+      "lat": -265,
+      "alt": 77
+    },
+    {
+      "station_name": "神田",
+      "lon": 154,
+      "lat": -322,
+      "alt": 19
+    },
+    {
+      "station_name": "三越前",
+      "lon": 168,
+      "lat": -374,
+      "alt": 18
+    },
+    {
+      "station_name": "日本橋",
+      "lon": 170,
+      "lat": -391,
+      "alt": 17
+    },
+    {
+      "station_name": "京橋",
+      "lon": 150,
+      "lat": -422,
+      "alt": 18
+    },
+    {
+      "station_name": "銀座",
+      "lon": 113,
+      "lat": -451,
+      "alt": 16
+    },
+    {
+      "station_name": "新橋",
+      "lon": 80,
+      "lat": -479,
+      "alt": 14
+    },
+    {
+      "station_name": "虎ノ門",
+      "lon": 28,
+      "lat": -462,
+      "alt": 27
+    },
+    {
+      "station_name": "溜池山王",
+      "lon": -22,
+      "lat": -441,
+      "alt": 38
+    },
+    {
+      "station_name": "赤坂見附",
+      "lon": -49,
+      "lat": -421,
+      "alt": 37
+    },
+    {
+      "station_name": "青山一丁目",
+      "lon": -126,
+      "lat": -447,
+      "alt": 128
+    },
+    {
+      "station_name": "外苑前",
+      "lon": -164,
+      "lat": -460,
+      "alt": 128
+    },
+    {
+      "station_name": "表参道",
+      "lon": -197,
+      "lat": -492,
+      "alt": 134
+    },
+    {
+      "station_name": "渋谷",
+      "lon": -256,
+      "lat": -526,
+      "alt": 72
+    }
+  ],
+  "marunouchi2": [
+    {
+      "station_name": "中野坂上",
+      "lon": -373,
+      "lat": -296,
+      "alt": 135
+    },
+    {
+      "station_name": "中野新橋",
+      "lon": -427,
+      "lat": -330,
+      "alt": 115
+    },
+    {
+      "station_name": "中野富士見町",
+      "lon": -469,
+      "lat": -340,
+      "alt": 124
+    },
+    {
+      "station_name": "方南町",
+      "lon": -532,
+      "lat": -382,
+      "alt": 189
+    }
+  ],
+  "marunouchi": [
+    {
+      "station_name": "池袋",
+      "lon": -204,
+      "lat": -102,
+      "alt": 132
+    },
+    {
+      "station_name": "新大塚",
+      "lon": -91,
+      "lat": -129,
+      "alt": 103
+    },
+    {
+      "station_name": "茗荷谷",
+      "lon": -48,
+      "lat": -181,
+      "alt": 110
+    },
+    {
+      "station_name": "後楽園",
+      "lon": 40,
+      "lat": -236,
+      "alt": 30
+    },
+    {
+      "station_name": "本郷三丁目",
+      "lon": 89,
+      "lat": -243,
+      "alt": 90
+    },
+    {
+      "station_name": "御茶ノ水",
+      "lon": 113,
+      "lat": -279,
+      "alt": 64
+    },
+    {
+      "station_name": "淡路町",
+      "lon": 135,
+      "lat": -311,
+      "alt": 20
+    },
+    {
+      "station_name": "大手町",
+      "lon": 126,
+      "lat": -364,
+      "alt": 13
+    },
+    {
+      "station_name": "東京",
+      "lon": 117,
+      "lat": -393,
+      "alt": 13
+    },
+    {
+      "station_name": "銀座",
+      "lon": 113,
+      "lat": -451,
+      "alt": 16
+    },
+    {
+      "station_name": "霞ケ関",
+      "lon": 34,
+      "lat": -440,
+      "alt": 30
+    },
+    {
+      "station_name": "国会議事堂前",
+      "lon": 0,
+      "lat": -440,
+      "alt": 101
+    },
+    {
+      "station_name": "赤坂見附",
+      "lon": -49,
+      "lat": -421,
+      "alt": 37
+    },
+    {
+      "station_name": "四ツ谷",
+      "lon": -94,
+      "lat": -367,
+      "alt": 118
+    },
+    {
+      "station_name": "四谷三丁目",
+      "lon": -150,
+      "lat": -355,
+      "alt": 141
+    },
+    {
+      "station_name": "新宿御苑前",
+      "lon": -207,
+      "lat": -352,
+      "alt": 137
+    },
+    {
+      "station_name": "新宿三丁目",
+      "lon": -242,
+      "lat": -338,
+      "alt": 148
+    },
+    {
+      "station_name": "新宿",
+      "lon": -267,
+      "lat": -329,
+      "alt": 147
+    },
+    {
+      "station_name": "西新宿",
+      "lon": -314,
+      "lat": -317,
+      "alt": 151
+    },
+    {
+      "station_name": "中野坂上",
+      "lon": -373,
+      "lat": -296,
+      "alt": 135
+    },
+    {
+      "station_name": "新中野",
+      "lon": -457,
+      "lat": -298,
+      "alt": 151
+    },
+    {
+      "station_name": "東高円寺",
+      "lon": -524,
+      "lat": -296,
+      "alt": 161
+    },
+    {
+      "station_name": "新高円寺",
+      "lon": -583,
+      "lat": -295,
+      "alt": 174
+    },
+    {
+      "station_name": "南阿佐ケ谷",
+      "lon": -656,
+      "lat": -285,
+      "alt": 200
+    },
+    {
+      "station_name": "荻窪",
+      "lon": -750,
+      "lat": -257,
+      "alt": 238
+    }
+  ],
+  "hibiya": [
+    {
+      "station_name": "北千住",
+      "lon": 355,
+      "lat": 10,
+      "alt": 34
+    },
+    {
+      "station_name": "南千住",
+      "lon": 325,
+      "lat": -83,
+      "alt": 20
+    },
+    {
+      "station_name": "三ノ輪",
+      "lon": 278,
+      "lat": -105,
+      "alt": 55
+    },
+    {
+      "station_name": "入谷",
+      "lon": 233,
+      "lat": -164,
+      "alt": 44
+    },
+    {
+      "station_name": "上野",
+      "lon": 192,
+      "lat": -214,
+      "alt": 65
+    },
+    {
+      "station_name": "仲御徒町",
+      "lon": 186,
+      "lat": -243,
+      "alt": 77
+    },
+    {
+      "station_name": "秋葉原",
+      "lon": 182,
+      "lat": -294,
+      "alt": 78
+    },
+    {
+      "station_name": "小伝馬町",
+      "lon": 200,
+      "lat": -339,
+      "alt": 21
+    },
+    {
+      "station_name": "人形町",
+      "lon": 223,
+      "lat": -365,
+      "alt": 15
+    },
+    {
+      "station_name": "茅場町",
+      "lon": 209,
+      "lat": -405,
+      "alt": 11
+    },
+    {
+      "station_name": "八丁堀",
+      "lon": 191,
+      "lat": -434,
+      "alt": 11
+    },
+    {
+      "station_name": "築地",
+      "lon": 165,
+      "lat": -474,
+      "alt": 8
+    },
+    {
+      "station_name": "東銀座",
+      "lon": 133,
+      "lat": -466,
+      "alt": 12
+    },
+    {
+      "station_name": "銀座",
+      "lon": 113,
+      "lat": -451,
+      "alt": 16
+    },
+    {
+      "station_name": "日比谷",
+      "lon": 90,
+      "lat": -436,
+      "alt": 10
+    },
+    {
+      "station_name": "霞ケ関",
+      "lon": 34,
+      "lat": -440,
+      "alt": 30
+    },
+    {
+      "station_name": "神谷町",
+      "lon": -1,
+      "lat": -505,
+      "alt": 36
+    },
+    {
+      "station_name": "六本木",
+      "lon": -82,
+      "lat": -506,
+      "alt": 124
+    },
+    {
+      "station_name": "広尾",
+      "lon": -138,
+      "lat": -569,
+      "alt": 43
+    },
+    {
+      "station_name": "恵比寿",
+      "lon": -217,
+      "lat": -599,
+      "alt": 60
+    },
+    {
+      "station_name": "中目黒",
+      "lon": -279,
+      "lat": -620,
+      "alt": 38
+    }
+  ],
+  "tozai": [
+    {
+      "station_name": "中野",
+      "lon": -476,
+      "lat": -249,
+      "alt": 145
+    },
+    {
+      "station_name": "落合",
+      "lon": -347,
+      "lat": -217,
+      "alt": 125
+    },
+    {
+      "station_name": "高田馬場",
+      "lon": -242,
+      "lat": -203,
+      "alt": 66
+    },
+    {
+      "station_name": "早稲田",
+      "lon": -143,
+      "lat": -249,
+      "alt": 61
+    },
+    {
+      "station_name": "神楽坂",
+      "lon": -64,
+      "lat": -260,
+      "alt": 102
+    },
+    {
+      "station_name": "飯田橋",
+      "lon": 5,
+      "lat": -273,
+      "alt": 19
+    },
+    {
+      "station_name": "九段下",
+      "lon": 41,
+      "lat": -310,
+      "alt": 20
+    },
+    {
+      "station_name": "竹橋",
+      "lon": 70,
+      "lat": -339,
+      "alt": 20
+    },
+    {
+      "station_name": "大手町",
+      "lon": 126,
+      "lat": -364,
+      "alt": 13
+    },
+    {
+      "station_name": "日本橋",
+      "lon": 170,
+      "lat": -391,
+      "alt": 17
+    },
+    {
+      "station_name": "茅場町",
+      "lon": 209,
+      "lat": -405,
+      "alt": 11
+    },
+    {
+      "station_name": "門前仲町",
+      "lon": 306,
+      "lat": -452,
+      "alt": 3
+    },
+    {
+      "station_name": "木場",
+      "lon": 371,
+      "lat": -467,
+      "alt": 41
+    },
+    {
+      "station_name": "東陽町",
+      "lon": 435,
+      "lat": -465,
+      "alt": 58
+    },
+    {
+      "station_name": "南砂町",
+      "lon": 513,
+      "lat": -470,
+      "alt": 20
+    },
+    {
+      "station_name": "西葛西",
+      "lon": 685,
+      "lat": -495,
+      "alt": 0
+    },
+    {
+      "station_name": "葛西",
+      "lon": 764,
+      "lat": -502,
+      "alt": 1
+    },
+    {
+      "station_name": "浦安",
+      "lon": 888,
+      "lat": -488,
+      "alt": 3
+    },
+    {
+      "station_name": "南行徳",
+      "lon": 943,
+      "lat": -447,
+      "alt": 5
+    },
+    {
+      "station_name": "行徳",
+      "lon": 1015,
+      "lat": -387,
+      "alt": 10
+    },
+    {
+      "station_name": "妙典",
+      "lon": 1074,
+      "lat": -338,
+      "alt": 5
+    },
+    {
+      "station_name": "原木中山",
+      "lon": 1181,
+      "lat": -262,
+      "alt": 6
+    },
+    {
+      "station_name": "西船橋",
+      "lon": 1283,
+      "lat": -240,
+      "alt": 10
+    }
+  ],
+  "chiyoda": [
+    {
+      "station_name": "北綾瀬",
+      "lon": 521,
+      "lat": 180,
+      "alt": 18
+    },
+    {
+      "station_name": "綾瀬",
+      "lon": 479,
+      "lat": 90,
+      "alt": 48
+    },
+    {
+      "station_name": "北千住",
+      "lon": 355,
+      "lat": 10,
+      "alt": 34
+    },
+    {
+      "station_name": "町屋",
+      "lon": 212,
+      "lat": -27,
+      "alt": 43
+    },
+    {
+      "station_name": "西日暮里",
+      "lon": 128,
+      "lat": -90,
+      "alt": 57
+    },
+    {
+      "station_name": "千駄木",
+      "lon": 109,
+      "lat": -130,
+      "alt": 68
+    },
+    {
+      "station_name": "根津",
+      "lon": 123,
+      "lat": -179,
+      "alt": 60
+    },
+    {
+      "station_name": "湯島",
+      "lon": 149,
+      "lat": -234,
+      "alt": 64
+    },
+    {
+      "station_name": "新御茶ノ水",
+      "lon": 125,
+      "lat": -295,
+      "alt": 63
+    },
+    {
+      "station_name": "大手町",
+      "lon": 126,
+      "lat": -364,
+      "alt": 13
+    },
+    {
+      "station_name": "二重橋前",
+      "lon": 101,
+      "lat": -397,
+      "alt": 11
+    },
+    {
+      "station_name": "日比谷",
+      "lon": 90,
+      "lat": -436,
+      "alt": 10
+    },
+    {
+      "station_name": "霞ケ関",
+      "lon": 34,
+      "lat": -440,
+      "alt": 30
+    },
+    {
+      "station_name": "国会議事堂前",
+      "lon": 0,
+      "lat": -440,
+      "alt": 101
+    },
+    {
+      "station_name": "赤坂",
+      "lon": -41,
+      "lat": -444,
+      "alt": 35
+    },
+    {
+      "station_name": "乃木坂",
+      "lon": -114,
+      "lat": -484,
+      "alt": 125
+    },
+    {
+      "station_name": "表参道",
+      "lon": -197,
+      "lat": -492,
+      "alt": 134
+    },
+    {
+      "station_name": "明治神宮前〈原宿〉",
+      "lon": -247,
+      "lat": -469,
+      "alt": 111
+    },
+    {
+      "station_name": "代々木公園",
+      "lon": -336,
+      "lat": -468,
+      "alt": 86
+    },
+    {
+      "station_name": "代々木上原",
+      "lon": -390,
+      "lat": -468,
+      "alt": 118
+    }
+  ],
+  "yurakucho": [
+    {
+      "station_name": "和光市",
+      "lon": -796,
+      "lat": 248,
+      "alt": 141
+    },
+    {
+      "station_name": "地下鉄成増",
+      "lon": -682,
+      "lat": 176,
+      "alt": 166
+    },
+    {
+      "station_name": "地下鉄赤塚",
+      "lon": -607,
+      "lat": 136,
+      "alt": 164
+    },
+    {
+      "station_name": "平和台",
+      "lon": -548,
+      "lat": 64,
+      "alt": 158
+    },
+    {
+      "station_name": "氷川台",
+      "lon": -478,
+      "lat": 14,
+      "alt": 129
+    },
+    {
+      "station_name": "小竹向原",
+      "lon": -399,
+      "lat": -20,
+      "alt": 146
+    },
+    {
+      "station_name": "千川",
+      "lon": -335,
+      "lat": -54,
+      "alt": 147
+    },
+    {
+      "station_name": "要町",
+      "lon": -279,
+      "lat": -84,
+      "alt": 117
+    },
+    {
+      "station_name": "池袋",
+      "lon": -204,
+      "lat": -102,
+      "alt": 132
+    },
+    {
+      "station_name": "東池袋",
+      "lon": -154,
+      "lat": -129,
+      "alt": 112
+    },
+    {
+      "station_name": "護国寺",
+      "lon": -106,
+      "lat": -169,
+      "alt": 53
+    },
+    {
+      "station_name": "江戸川橋",
+      "lon": -70,
+      "lat": -226,
+      "alt": 22
+    },
+    {
+      "station_name": "飯田橋",
+      "lon": 5,
+      "lat": -273,
+      "alt": 19
+    },
+    {
+      "station_name": "市ケ谷",
+      "lon": -52,
+      "lat": -331,
+      "alt": 47
+    },
+    {
+      "station_name": "麹町",
+      "lon": -45,
+      "lat": -379,
+      "alt": 124
+    },
+    {
+      "station_name": "永田町",
+      "lon": -29,
+      "lat": -411,
+      "alt": 119
+    },
+    {
+      "station_name": "桜田門",
+      "lon": 38,
+      "lat": -419,
+      "alt": 32
+    },
+    {
+      "station_name": "有楽町",
+      "lon": 109,
+      "lat": -429,
+      "alt": 11
+    },
+    {
+      "station_name": "銀座一丁目",
+      "lon": 131,
+      "lat": -437,
+      "alt": 13
+    },
+    {
+      "station_name": "新富町",
+      "lon": 171,
+      "lat": -460,
+      "alt": 0
+    },
+    {
+      "station_name": "月島",
+      "lon": 234,
+      "lat": -494,
+      "alt": 8
+    },
+    {
+      "station_name": "豊洲",
+      "lon": 306,
+      "lat": -554,
+      "alt": 8
+    },
+    {
+      "station_name": "辰巳",
+      "lon": 392,
+      "lat": -610,
+      "alt": 25
+    },
+    {
+      "station_name": "新木場",
+      "lon": 487,
+      "lat": -608,
+      "alt": 61
+    }
+  ],
+  "hanzomon": [
+    {
+      "station_name": "渋谷",
+      "lon": -256,
+      "lat": -526,
+      "alt": 72
+    },
+    {
+      "station_name": "表参道",
+      "lon": -197,
+      "lat": -492,
+      "alt": 134
+    },
+    {
+      "station_name": "青山一丁目",
+      "lon": -126,
+      "lat": -447,
+      "alt": 128
+    },
+    {
+      "station_name": "永田町",
+      "lon": -29,
+      "lat": -411,
+      "alt": 119
+    },
+    {
+      "station_name": "半蔵門",
+      "lon": -21,
+      "lat": -369,
+      "alt": 119
+    },
+    {
+      "station_name": "九段下",
+      "lon": 41,
+      "lat": -310,
+      "alt": 20
+    },
+    {
+      "station_name": "神保町",
+      "lon": 75,
+      "lat": -307,
+      "alt": 15
+    },
+    {
+      "station_name": "大手町",
+      "lon": 126,
+      "lat": -364,
+      "alt": 13
+    },
+    {
+      "station_name": "三越前",
+      "lon": 168,
+      "lat": -374,
+      "alt": 18
+    },
+    {
+      "station_name": "水天宮前",
+      "lon": 241,
+      "lat": -387,
+      "alt": 6
+    },
+    {
+      "station_name": "清澄白河",
+      "lon": 322,
+      "lat": -391,
+      "alt": 34
+    },
+    {
+      "station_name": "住吉",
+      "lon": 423,
+      "lat": -349,
+      "alt": 32
+    },
+    {
+      "station_name": "錦糸町",
+      "lon": 419,
+      "lat": -298,
+      "alt": 35
+    },
+    {
+      "station_name": "押上〈スカイツリー前〉",
+      "lon": 407,
+      "lat": -219,
+      "alt": 10
+    }
+  ],
+  "namboku": [
+    {
+      "station_name": "赤羽岩淵",
+      "lon": -138,
+      "lat": 217,
+      "alt": 29
+    },
+    {
+      "station_name": "志茂",
+      "lon": -75,
+      "lat": 185,
+      "alt": 32
+    },
+    {
+      "station_name": "王子神谷",
+      "lon": -55,
+      "lat": 108,
+      "alt": 36
+    },
+    {
+      "station_name": "王子",
+      "lon": -45,
+      "lat": 41,
+      "alt": 55
+    },
+    {
+      "station_name": "西ケ原",
+      "lon": -17,
+      "lat": -7,
+      "alt": 118
+    },
+    {
+      "station_name": "駒込",
+      "lon": 8,
+      "lat": -61,
+      "alt": 135
+    },
+    {
+      "station_name": "本駒込",
+      "lon": 52,
+      "lat": -138,
+      "alt": 127
+    },
+    {
+      "station_name": "東大前",
+      "lon": 77,
+      "lat": -177,
+      "alt": 116
+    },
+    {
+      "station_name": "後楽園",
+      "lon": 40,
+      "lat": -236,
+      "alt": 30
+    },
+    {
+      "station_name": "飯田橋",
+      "lon": 5,
+      "lat": -273,
+      "alt": 19
+    },
+    {
+      "station_name": "市ケ谷",
+      "lon": -52,
+      "lat": -331,
+      "alt": 47
+    },
+    {
+      "station_name": "四ツ谷",
+      "lon": -94,
+      "lat": -367,
+      "alt": 118
+    },
+    {
+      "station_name": "永田町",
+      "lon": -29,
+      "lat": -411,
+      "alt": 119
+    },
+    {
+      "station_name": "溜池山王",
+      "lon": -22,
+      "lat": -441,
+      "alt": 38
+    },
+    {
+      "station_name": "六本木一丁目",
+      "lon": -37,
+      "lat": -490,
+      "alt": 66
+    },
+    {
+      "station_name": "麻布十番",
+      "lon": -49,
+      "lat": -555,
+      "alt": 19
+    },
+    {
+      "station_name": "白金高輪",
+      "lon": -66,
+      "lat": -626,
+      "alt": 42
+    },
+    {
+      "station_name": "白金台",
+      "lon": -114,
+      "lat": -656,
+      "alt": 120
+    },
+    {
+      "station_name": "目黒",
+      "lon": -178,
+      "lat": -684,
+      "alt": 121
+    }
+  ],
+  "fukutoshin": [
+    {
+      "station_name": "和光市",
+      "hidden": true,
+      "lon": -796,
+      "lat": 248,
+      "alt": 141
+    },
+    {
+      "station_name": "地下鉄成増",
+      "hidden": true,
+      "lon": -682,
+      "lat": 176,
+      "alt": 166
+    },
+    {
+      "station_name": "地下鉄赤塚",
+      "hidden": true,
+      "lon": -607,
+      "lat": 136,
+      "alt": 164
+    },
+    {
+      "station_name": "平和台",
+      "hidden": true,
+      "lon": -548,
+      "lat": 64,
+      "alt": 158
+    },
+    {
+      "station_name": "氷川台",
+      "hidden": true,
+      "lon": -478,
+      "lat": 14,
+      "alt": 129
+    },
+    {
+      "station_name": "小竹向原",
+      "hidden": true,
+      "lon": -399,
+      "lat": -20,
+      "alt": 146
+    },
+    {
+      "station_name": "千川",
+      "hidden": true,
+      "lon": -335,
+      "lat": -54,
+      "alt": 147
+    },
+    {
+      "station_name": "要町",
+      "hidden": true,
+      "lon": -279,
+      "lat": -84,
+      "alt": 117
+    },
+    {
+      "station_name": "池袋",
+      "lon": -204,
+      "lat": -102,
+      "alt": 132
+    },
+    {
+      "station_name": "雑司が谷",
+      "lon": -182,
+      "lat": -162,
+      "alt": 118
+    },
+    {
+      "station_name": "西早稲田",
+      "lon": -216,
+      "lat": -234,
+      "alt": 110
+    },
+    {
+      "station_name": "東新宿",
+      "lon": -225,
+      "lat": -290,
+      "alt": 125
+    },
+    {
+      "station_name": "新宿三丁目",
+      "lon": -242,
+      "lat": -338,
+      "alt": 148
+    },
+    {
+      "station_name": "北参道",
+      "lon": -238,
+      "lat": -412,
+      "alt": 103
+    },
+    {
+      "station_name": "明治神宮前〈原宿〉",
+      "lon": -247,
+      "lat": -469,
+      "alt": 111
+    },
+    {
+      "station_name": "渋谷",
+      "lon": -256,
+      "lat": -526,
+      "alt": 72
+    }
+  ]
+}

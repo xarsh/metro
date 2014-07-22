@@ -1,2 +1,4 @@
 .DS_Store
 public
+asset/js/three.min.js
+asset/js/zepto.min.js
