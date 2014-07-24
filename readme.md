@@ -9,4 +9,4 @@
 
 To Me Cardの還元率があがるといいなぁ。
 
-![screen shot](http://s46.net/metro/sc.png)
+![screen shot](https://farm6.staticflickr.com/5577/14545593198_bc197f2044_b_d.jpg)

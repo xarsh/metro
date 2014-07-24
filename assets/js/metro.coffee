@@ -7,9 +7,7 @@ color = {"銀座": 0xf39700, "丸ノ内":0xe60012, "日比谷":0x9caeb7, \
 normalizedMouse = {x:0, y:0}
 currentMouse = {x:0, y:0}
 onStation = false
-vue = new Vue({
-  el: '.station-detail',
-})
+vue = new Vue({ el: '.station-detail' })
 
 
 init = ->
@@ -78,7 +76,8 @@ prepare = ->
           mesh.position.set(s.lon, s.lat, s.alt)
           stationGroup.add(mesh)
           transferList[s.station_name] ?= []
-          transferList[s.station_name].push(lineName))
+          transferList[s.station_name].push(lineName)
+      render())
 
   scene.add(lineGroup)
   scene.add(stationGroup)
