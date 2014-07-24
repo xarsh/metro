@@ -14,13 +14,27 @@ body
     background:rgba(255,255,255,0.5)
     p
       position:absolute
-    p:nth-child(1)
-      font-size:20px
       top:12px
-      left:30px
-    p:nth-child(2)
-      text-align:right
-      top:15px
-      right:30px
       a
         color:white
+        &:hover
+          text-decoration:underline
+    p:nth-child(1)
+      font-size:20px
+      left:30px
+    p:nth-child(2)
+      left:270px
+    p:nth-child(3)
+      left:430px
+    p:nth-child(4)
+      text-align:right
+      right:30px
+
+  .tooltip
+    background:#5b7e91
+    border:2px solid #5b7e91 - #333
+    padding:3px 10px
+    color:white
+    font-size:12px
+    position:absolute;
+    display:none;

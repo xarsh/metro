@@ -1,10 +1,11 @@
-[camera, scene, renderer, controls] = [null, null, null, null]
+[projector, camera, scene, renderer, controls, obj, currentMouse] = [null, null, null, null, null, null, null]
+[lineGroup, stationGroup] = [new THREE.Object3D(), new THREE.Object3D]
 
-projector = new THREE.Projector()
 mouse = {x:0, y:0}
-targetList = []
 
 init = ->
+  projector = new THREE.Projector()
+
   camera = new THREE.PerspectiveCamera(40, window.innerWidth / window.innerHeight, 1, 10000)
   camera.position.set(200, -1000, 1000)
 
@@ -19,6 +20,7 @@ init = ->
   renderer.setSize window.innerWidth, window.innerHeight
   document.body.appendChild renderer.domElement
   window.addEventListener('resize', onWindowResize, false)
+  window.addEventListener('mousemove', onWindowMouseMove, false)
 
 
 onWindowResize = ->
@@ -27,9 +29,16 @@ onWindowResize = ->
   camera.updateProjectionMatrix()
 
 
+onWindowMouseMove = (e) ->
+  currentMouse = {x:e.clientX, y:e.clientY}
+  mouse.x =  (e.clientX / window.innerWidth) * 2 - 1
+  mouse.y = -((e.clientY - 15) / window.innerHeight) * 2 + 1
+
+
 animate = ->
   requestAnimationFrame animate
   controls.update()
+  update()
 
 
 render = ->
@@ -45,32 +54,44 @@ draw = ->
       for lineName, stations of lines
         path = new THREE.SplineCurve3(new THREE.Vector3(s.lon, s.lat, s.alt) for s in stations when !s.hidden)
         tube = new THREE.TubeGeometry(path, 96, 3, 12, false, false)
-        mesh = new THREE.Mesh(tube, new THREE.MeshLambertMaterial(emissive: color[lineName] || 0xe60012))
-        scene.add mesh
+        lineGroup.add new THREE.Mesh(tube, new THREE.MeshLambertMaterial(emissive: color[lineName] || 0xe60012))
 
         for index, s of stations
-          mesh = new THREE.Mesh(new THREE.SphereGeometry(6, 12, 12), new THREE.MeshLambertMaterial(emissive: 0xffffff))
+          mesh = new THREE.Mesh(new THREE.SphereGeometry(6, 8, 8), new THREE.MeshLambertMaterial(emissive: 0xffffff))
+          mesh.stationName = s.station_name
           mesh.position.set(s.lon, s.lat, s.alt)
-          scene.add(mesh)
-          targetList.push(mesh))
+          stationGroup.add(mesh))
+
+  scene.add(lineGroup)
+  scene.add(stationGroup)
 
 
-window.onmousedown = (ev) ->
-  if(ev.target == renderer.domElement)
-    rect = ev.target.getBoundingClientRect()
-    mouse.x = ev.clientX - rect.left
-    mouse.y = ev.clientY - rect.top
-    mouse.x =  (mouse.x / window.innerWidth) * 2 - 1
-    mouse.y = -(mouse.y / window.innerHeight) * 2 + 1
+update = ->
+  vector = new THREE.Vector3(mouse.x, mouse.y, 1)
+  projector.unprojectVector(vector, camera)
+  ray = new THREE.Raycaster()
+  ray.set(camera.position, vector.sub(camera.position).normalize())
+  obj = ray.intersectObjects(stationGroup.children, false)
 
-    vector = new THREE.Vector3(mouse.x, mouse.y, 1)
-    projector.unprojectVector(vector, camera)
-    ray = new THREE.Raycaster()
-    ray.set(camera.position, vector.sub(camera.position).normalize())
-    obj = ray.intersectObjects(scene.children, false)
+  if(obj.length > 0)
+    obj = obj[0].object
+    $ ->
+      $('.tooltip').css({left:currentMouse.x, top:currentMouse.y - 20, display:'block'}).text(obj.stationName)
+    console.log(obj.stationName)
+  else
+    obj = null
+    $ ->
+      $('.tooltip').css({display:'none'})
 
-    if(obj.length > 0)
-      console.log(obj[0])
+
+$ ->
+  $('p:nth-child(2) a').click ->
+    stationGroup.visible = !stationGroup.visible
+
+  $('p:nth-child(3) a').click ->
+    lineGroup.visible = !lineGroup.visible
+
+
 
 init()
 animate()
