@@ -1,5 +1,5 @@
 {
-  "ginza": [
+  "銀座": [
     {
       "station_name": "浅草",
       "lon": 315,
@@ -115,7 +115,7 @@
       "alt": 72
     }
   ],
-  "marunouchi2": [
+  "丸ノ内2": [
     {
       "station_name": "中野坂上",
       "lon": -373,
@@ -141,7 +141,7 @@
       "alt": 189
     }
   ],
-  "marunouchi": [
+  "丸ノ内": [
     {
       "station_name": "池袋",
       "lon": -204,
@@ -293,7 +293,7 @@
       "alt": 238
     }
   ],
-  "hibiya": [
+  "日比谷": [
     {
       "station_name": "北千住",
       "lon": 355,
@@ -421,7 +421,7 @@
       "alt": 38
     }
   ],
-  "tozai": [
+  "東西": [
     {
       "station_name": "中野",
       "lon": -476,
@@ -561,7 +561,7 @@
       "alt": 10
     }
   ],
-  "chiyoda": [
+  "千代田": [
     {
       "station_name": "北綾瀬",
       "lon": 521,
@@ -665,7 +665,8 @@
       "alt": 134
     },
     {
-      "station_name": "明治神宮前〈原宿〉",
+      "station_name": "明治神宮前",
+      "station_subname": "〈原宿〉",
       "lon": -247,
       "lat": -469,
       "alt": 111
@@ -683,7 +684,7 @@
       "alt": 118
     }
   ],
-  "yurakucho": [
+  "有楽町": [
     {
       "station_name": "和光市",
       "lon": -796,
@@ -829,7 +830,7 @@
       "alt": 61
     }
   ],
-  "hanzomon": [
+  "半蔵門": [
     {
       "station_name": "渋谷",
       "lon": -256,
@@ -909,13 +910,14 @@
       "alt": 35
     },
     {
-      "station_name": "押上〈スカイツリー前〉",
+      "station_name": "押上",
+      "station_subname": "〈スカイツリー前〉",
       "lon": 407,
       "lat": -219,
       "alt": 10
     }
   ],
-  "namboku": [
+  "南北": [
     {
       "station_name": "赤羽岩淵",
       "lon": -138,
@@ -1031,7 +1033,7 @@
       "alt": 121
     }
   ],
-  "fukutoshin": [
+  "副都心": [
     {
       "station_name": "和光市",
       "hidden": true,
@@ -1125,7 +1127,8 @@
       "alt": 103
     },
     {
-      "station_name": "明治神宮前〈原宿〉",
+      "station_name": "明治神宮前",
+      "station_subname": "〈原宿〉",
       "lon": -247,
       "lat": -469,
       "alt": 111

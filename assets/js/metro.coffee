@@ -1,7 +1,16 @@
-[projector, camera, scene, renderer, controls, obj, currentMouse] = [null, null, null, null, null, null, null]
+[projector, camera, scene, renderer, controls, obj] = [null, null, null, null, null, null]
 [lineGroup, stationGroup] = [new THREE.Object3D(), new THREE.Object3D]
+transferList = {}
+color = {"銀座": 0xf39700, "丸ノ内":0xe60012, "日比谷":0x9caeb7, \
+         "東西": 0x00a7db, "千代田":0x009944, "有楽町":0xd7c447, \
+         "南北": 0x00ada9, "半蔵門":0x9b7cb6, "副都心":0xbb641d}
+normalizedMouse = {x:0, y:0}
+currentMouse = {x:0, y:0}
+onStation = false
+vue = new Vue({
+  el: '.station-detail',
+})
 
-mouse = {x:0, y:0}
 
 init = ->
   projector = new THREE.Projector()
@@ -21,6 +30,7 @@ init = ->
   document.body.appendChild renderer.domElement
   window.addEventListener('resize', onWindowResize, false)
   window.addEventListener('mousemove', onWindowMouseMove, false)
+  window.addEventListener('mousedown', onWindowMouseDown, false)
 
 
 onWindowResize = ->
@@ -31,8 +41,17 @@ onWindowResize = ->
 
 onWindowMouseMove = (e) ->
   currentMouse = {x:e.clientX, y:e.clientY}
-  mouse.x =  (e.clientX / window.innerWidth) * 2 - 1
-  mouse.y = -((e.clientY - 15) / window.innerHeight) * 2 + 1
+  normalizedMouse.x =  (e.clientX / window.innerWidth) * 2 - 1
+  normalizedMouse.y = -((e.clientY - 15) / window.innerHeight) * 2 + 1
+
+
+onWindowMouseDown = (e) ->
+  if(onStation)
+    vue.stationName =  obj.station.station_name
+    vue.stationSubName = obj.station.stationSubName
+    vue.stationAddress = obj.station.stationAddress
+    vue.lines = ({line: l} for l in transferList[obj.station.station_name])
+    $('.station-detail').addClass("opened")
 
 
 animate = ->
@@ -45,10 +64,7 @@ render = ->
   renderer.render scene, camera
 
 
-draw = ->
-  color = {"ginza":   0xf39700, "marunouchi":0xe60012, "hibiya":    0x9caeb7, \
-           "tozai":   0x00a7db, "chiyoda":   0x009944, "yurakucho": 0xd7c447, \
-           "hanzomon":0x9b7cb6, "namboku":   0x00ada9, "fukutoshin":0xbb641d}
+prepare = ->
   $ ->
     $.getJSON('./js/lines.json', (lines)=>
       for lineName, stations of lines
@@ -58,16 +74,18 @@ draw = ->
 
         for index, s of stations
           mesh = new THREE.Mesh(new THREE.SphereGeometry(6, 8, 8), new THREE.MeshLambertMaterial(emissive: 0xffffff))
-          mesh.stationName = s.station_name
+          mesh.station = s
           mesh.position.set(s.lon, s.lat, s.alt)
-          stationGroup.add(mesh))
+          stationGroup.add(mesh)
+          transferList[s.station_name] ?= []
+          transferList[s.station_name].push(lineName))
 
   scene.add(lineGroup)
   scene.add(stationGroup)
 
 
 update = ->
-  vector = new THREE.Vector3(mouse.x, mouse.y, 1)
+  vector = new THREE.Vector3(normalizedMouse.x, normalizedMouse.y, 1)
   projector.unprojectVector(vector, camera)
   ray = new THREE.Raycaster()
   ray.set(camera.position, vector.sub(camera.position).normalize())
@@ -75,24 +93,28 @@ update = ->
 
   if(obj.length > 0)
     obj = obj[0].object
+    onStation = true
     $ ->
-      $('.tooltip').css({left:currentMouse.x, top:currentMouse.y - 20, display:'block'}).text(obj.stationName)
-    console.log(obj.stationName)
+      $('.tooltip').css({left:currentMouse.x, top:currentMouse.y - 20, display:'block'}).text(obj.station.station_name)
   else
-    obj = null
+    onStation = false
     $ ->
       $('.tooltip').css({display:'none'})
 
 
 $ ->
-  $('p:nth-child(2) a').click ->
+  $('.title li:nth-child(1) a').click ->
     stationGroup.visible = !stationGroup.visible
 
-  $('p:nth-child(3) a').click ->
+  $('.title li:nth-child(2) a').click ->
     lineGroup.visible = !lineGroup.visible
+
+  $('.title li:nth-child(3) a').click ->
+    $('.station-detail').toggleClass("opened")
 
 
 
 init()
 animate()
-draw()
+prepare()
+
