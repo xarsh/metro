@@ -7,7 +7,9 @@ color = {"銀座": 0xf39700, "丸ノ内":0xe60012, "日比谷":0x9caeb7, \
 normalizedMouse = {x:0, y:0}
 currentMouse = {x:0, y:0}
 onStation = false
-vue = new Vue({ el: '.station-detail' })
+vue = new Vue({
+  el: '.station-detail'
+})
 
 
 init = ->
@@ -104,12 +106,15 @@ update = ->
 $ ->
   $('.title li:nth-child(1) a').click ->
     stationGroup.visible = !stationGroup.visible
+    render()
 
   $('.title li:nth-child(2) a').click ->
     lineGroup.visible = !lineGroup.visible
+    render()
 
   $('.title li:nth-child(3) a').click ->
     $('.station-detail').toggleClass("opened")
+    render()
 
 
 
