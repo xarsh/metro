@@ -42,7 +42,7 @@ onWindowResize = ->
 onWindowMouseMove = (e) ->
   currentMouse = {x:e.clientX, y:e.clientY}
   normalizedMouse.x =  (e.clientX / window.innerWidth) * 2 - 1
-  normalizedMouse.y = -((e.clientY - 15) / window.innerHeight) * 2 + 1
+  normalizedMouse.y = -(e.clientY / window.innerHeight) * 2 + 1
 
 
 onWindowMouseDown = (e) ->
