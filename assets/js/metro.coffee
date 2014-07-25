@@ -88,9 +88,8 @@ prepare = ->
 update = ->
   vector = new THREE.Vector3(normalizedMouse.x, normalizedMouse.y, 1)
   projector.unprojectVector(vector, camera)
-  ray = new THREE.Raycaster()
-  ray.set(camera.position, vector.sub(camera.position).normalize())
-  obj = ray.intersectObjects(stationGroup.children, false)
+  ray = new THREE.Raycaster(camera.position, vector.sub(camera.position).normalize())
+  obj = ray.intersectObjects(stationGroup.children)
 
   if(obj.length > 0)
     obj = obj[0].object
