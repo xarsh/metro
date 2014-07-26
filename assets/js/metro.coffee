@@ -53,6 +53,7 @@ onWindowMouseDown = (e) ->
     vue.stationAddress = obj.station.stationAddress
     vue.lines = ({line: l} for l in transferList[obj.station.station_name])
     $('.station-detail').addClass("opened")
+    $('.title li:nth-child(3) a').addClass('on')
 
 
 animate = ->
@@ -115,11 +116,9 @@ $ ->
     render()
 
   $('.title li:nth-child(3) a').click ->
-    $('.station-detail').toggleClass("opened")
-    if($('.station-detail').hasClass('opened'))
-      $(@).toggleClass('on')
+    $('.station-detail').toggleClass('opened')
+    $('.title li:nth-child(3) a').toggleClass('on')
     render()
-
 
 
 init()
