@@ -4,115 +4,153 @@
       "station_name": "浅草",
       "lon": 315,
       "lat": -219,
-      "alt": 28
+      "alt": 28,
+      "yomigana": "あさくさ",
+      "english": "Asakusa"
     },
     {
       "station_name": "田原町",
       "lon": 274,
       "lat": -224,
-      "alt": 74
+      "alt": 74,
+      "yomigana": "たわらまち",
+      "english": "Tawaramachi"
     },
     {
       "station_name": "稲荷町",
       "lon": 225,
       "lat": -216,
-      "alt": 57
+      "alt": 57,
+      "yomigana": "いなりちょう",
+      "english": "Inaricho"
     },
     {
       "station_name": "上野",
       "lon": 192,
       "lat": -214,
-      "alt": 65
+      "alt": 65,
+      "yomigana": "うえの",
+      "english": "Ueno"
     },
     {
       "station_name": "上野広小路",
       "lon": 166,
       "lat": -237,
-      "alt": 63
+      "alt": 63,
+      "yomigana": "うえのひろこうじ",
+      "english": "Ueno-hirokoji"
     },
     {
       "station_name": "末広町",
       "lon": 159,
       "lat": -265,
-      "alt": 77
+      "alt": 77,
+      "yomigana": "すえひろちょう",
+      "english": "Suehirocho"
     },
     {
       "station_name": "神田",
       "lon": 154,
       "lat": -322,
-      "alt": 19
+      "alt": 19,
+      "yomigana": "かんだ",
+      "english": "Kanda"
     },
     {
       "station_name": "三越前",
       "lon": 168,
       "lat": -374,
-      "alt": 18
+      "alt": 18,
+      "yomigana": "みつこしまえ",
+      "english": "Mitsukoshimae"
     },
     {
       "station_name": "日本橋",
       "lon": 170,
       "lat": -391,
-      "alt": 17
+      "alt": 17,
+      "yomigana": "にほんばし",
+      "english": "Nihombashi"
     },
     {
       "station_name": "京橋",
       "lon": 150,
       "lat": -422,
-      "alt": 18
+      "alt": 18,
+      "yomigana": "きょうばし",
+      "english": "Kyobashi"
     },
     {
       "station_name": "銀座",
       "lon": 113,
       "lat": -451,
-      "alt": 16
+      "alt": 16,
+      "yomigana": "ぎんざ",
+      "english": "Ginza"
     },
     {
       "station_name": "新橋",
       "lon": 80,
       "lat": -479,
-      "alt": 14
+      "alt": 14,
+      "yomigana": "しんばし",
+      "english": "Shimbashi"
     },
     {
       "station_name": "虎ノ門",
       "lon": 28,
       "lat": -462,
-      "alt": 27
+      "alt": 27,
+      "yomigana": "とらのもん",
+      "english": "Toranomon"
     },
     {
       "station_name": "溜池山王",
       "lon": -22,
       "lat": -441,
-      "alt": 38
+      "alt": 38,
+      "yomigana": "ためいけさんのう",
+      "english": "Tameike-sanno"
     },
     {
       "station_name": "赤坂見附",
       "lon": -49,
       "lat": -421,
-      "alt": 37
+      "alt": 37,
+      "yomigana": "あかさかみつけ",
+      "english": "Akasaka-mitsuke"
     },
     {
       "station_name": "青山一丁目",
       "lon": -126,
       "lat": -447,
-      "alt": 128
+      "alt": 128,
+      "yomigana": "あおやまいっちょうめ",
+      "english": "Aoyama-itchome"
     },
     {
       "station_name": "外苑前",
       "lon": -164,
       "lat": -460,
-      "alt": 128
+      "alt": 128,
+      "yomigana": "がいえんまえ",
+      "english": "Gaiemmae"
     },
     {
       "station_name": "表参道",
       "lon": -197,
       "lat": -492,
-      "alt": 134
+      "alt": 134,
+      "yomigana": "おもてさんどう",
+      "english": "Omote-sando"
     },
     {
       "station_name": "渋谷",
       "lon": -256,
       "lat": -526,
-      "alt": 72
+      "alt": 72,
+      "yomigana": "しぶや",
+      "english": "Shibuya"
     }
   ],
   "丸ノ内2": [
@@ -120,25 +158,33 @@
       "station_name": "中野坂上",
       "lon": -373,
       "lat": -296,
-      "alt": 135
+      "alt": 135,
+      "yomigana": "なかのさかうえ",
+      "english": "Nakano-sakaue"
     },
     {
       "station_name": "中野新橋",
       "lon": -427,
       "lat": -330,
-      "alt": 115
+      "alt": 115,
+      "yomigana": "なかのしんばし",
+      "english": "Nakano-shimbashi"
     },
     {
       "station_name": "中野富士見町",
       "lon": -469,
       "lat": -340,
-      "alt": 124
+      "alt": 124,
+      "yomigana": "なかのふじみちょう",
+      "english": "Nakano-fujimicho"
     },
     {
       "station_name": "方南町",
       "lon": -532,
       "lat": -382,
-      "alt": 189
+      "alt": 189,
+      "yomigana": "ほうなんちょう",
+      "english": "Honancho"
     }
   ],
   "丸ノ内": [
@@ -146,151 +192,202 @@
       "station_name": "池袋",
       "lon": -204,
       "lat": -102,
-      "alt": 132
+      "alt": 132,
+      "yomigana": "いけぶくろ",
+      "english": "Ikebukuro"
     },
     {
       "station_name": "新大塚",
       "lon": -91,
       "lat": -129,
-      "alt": 103
+      "alt": 103,
+      "yomigana": "しんおおつか",
+      "english": "Shin-otsuka"
     },
     {
       "station_name": "茗荷谷",
       "lon": -48,
       "lat": -181,
-      "alt": 110
+      "alt": 110,
+      "yomigana": "みょうがだに",
+      "english": "Myogadani"
     },
     {
       "station_name": "後楽園",
       "lon": 40,
       "lat": -236,
-      "alt": 30
+      "alt": 30,
+      "yomigana": "こうらくえん",
+      "english": "Korakuen"
     },
     {
       "station_name": "本郷三丁目",
       "lon": 89,
       "lat": -243,
-      "alt": 90
+      "alt": 90,
+      "yomigana": "ほんごうさんちょうめ",
+      "english": "Hongo-sanchome"
     },
     {
       "station_name": "御茶ノ水",
       "lon": 113,
       "lat": -279,
-      "alt": 64
+      "alt": 64,
+      "yomigana": "おちゃのみず",
+      "english": "Ochanomizu"
     },
     {
       "station_name": "淡路町",
       "lon": 135,
       "lat": -311,
-      "alt": 20
+      "alt": 20,
+      "yomigana": "あわじちょう",
+      "english": "Awajicho"
     },
     {
       "station_name": "大手町",
       "lon": 126,
       "lat": -364,
-      "alt": 13
+      "alt": 13,
+      "yomigana": "おおてまち",
+      "english": "Otemachi"
     },
     {
       "station_name": "東京",
       "lon": 117,
       "lat": -393,
-      "alt": 13
+      "alt": 13,
+      "yomigana": "とうきょう",
+      "english": "Tokyo"
     },
     {
       "station_name": "銀座",
       "lon": 113,
       "lat": -451,
-      "alt": 16
+      "alt": 16,
+      "yomigana": "ぎんざ",
+      "english": "Ginza"
     },
     {
       "station_name": "霞ケ関",
       "lon": 34,
       "lat": -440,
-      "alt": 30
+      "alt": 30,
+      "yomigana": "かすみがせき",
+      "english": "Kasumigaseki"
     },
     {
       "station_name": "国会議事堂前",
       "lon": 0,
       "lat": -440,
-      "alt": 101
+      "alt": 101,
+      "yomigana": "こっかいぎじどうまえ",
+      "english": "Kokkai-gijidomae"
     },
     {
       "station_name": "赤坂見附",
       "lon": -49,
       "lat": -421,
-      "alt": 37
+      "alt": 37,
+      "yomigana": "あかさかみつけ",
+      "english": "Akasaka-mitsuke"
     },
     {
       "station_name": "四ツ谷",
       "lon": -94,
       "lat": -367,
-      "alt": 118
+      "alt": 118,
+      "yomigana": "よつや",
+      "english": "Yotsuya"
     },
     {
       "station_name": "四谷三丁目",
       "lon": -150,
       "lat": -355,
-      "alt": 141
+      "alt": 141,
+      "yomigana": "よつやさんちょうめ",
+      "english": "Yotsuya-sanchome"
     },
     {
       "station_name": "新宿御苑前",
       "lon": -207,
       "lat": -352,
-      "alt": 137
+      "alt": 137,
+      "yomigana": "しんじゅくぎょえんまえ",
+      "english": "Shinjuku-gyoemmae"
     },
     {
       "station_name": "新宿三丁目",
       "lon": -242,
       "lat": -338,
-      "alt": 148
+      "alt": 148,
+      "yomigana": "しんじゅくさんちょうめ",
+      "english": "Shinjuku-sanchome"
     },
     {
       "station_name": "新宿",
       "lon": -267,
       "lat": -329,
-      "alt": 147
+      "alt": 147,
+      "yomigana": "しんじゅく",
+      "english": "Shinjuku"
     },
     {
       "station_name": "西新宿",
       "lon": -314,
       "lat": -317,
-      "alt": 151
+      "alt": 151,
+      "yomigana": "にししんじゅく",
+      "english": "Nishi-shinjuku"
     },
     {
       "station_name": "中野坂上",
       "lon": -373,
       "lat": -296,
-      "alt": 135
+      "alt": 135,
+      "yomigana": "なかのさかうえ",
+      "english": "Nakano-sakaue"
     },
     {
       "station_name": "新中野",
       "lon": -457,
       "lat": -298,
-      "alt": 151
+      "alt": 151,
+      "yomigana": "しんなかの",
+      "english": "Shin-nakano"
     },
     {
       "station_name": "東高円寺",
       "lon": -524,
       "lat": -296,
-      "alt": 161
+      "alt": 161,
+      "yomigana": "ひがしこうえんじ",
+      "english": "Higashi-koenji"
     },
     {
       "station_name": "新高円寺",
       "lon": -583,
       "lat": -295,
-      "alt": 174
+      "alt": 174,
+      "yomigana": "しんこうえんじ",
+      "english": "Shin-koenji"
     },
     {
       "station_name": "南阿佐ケ谷",
       "lon": -656,
       "lat": -285,
-      "alt": 200
+      "alt": 200,
+      "yomigana": "みなみあさがや",
+      "english": "Minami-asagaya"
+
     },
     {
       "station_name": "荻窪",
       "lon": -750,
       "lat": -257,
-      "alt": 238
+      "alt": 238,
+      "yomigana": "おぎくぼ",
+      "english": "Ogikubo"
     }
   ],
   "日比谷": [
@@ -298,127 +395,169 @@
       "station_name": "北千住",
       "lon": 355,
       "lat": 10,
-      "alt": 34
+      "alt": 34,
+      "yomigana": "きたせんじゅ",
+      "english": "Kita-senju"
     },
     {
       "station_name": "南千住",
       "lon": 325,
       "lat": -83,
-      "alt": 20
+      "alt": 20,
+      "yomigana": "みなみせんじゅ",
+      "english": "Minami-senju"
     },
     {
       "station_name": "三ノ輪",
       "lon": 278,
       "lat": -105,
-      "alt": 55
+      "alt": 55,
+      "yomigana": "みのわ",
+      "english": "Minowa"
     },
     {
       "station_name": "入谷",
       "lon": 233,
       "lat": -164,
-      "alt": 44
+      "alt": 44,
+      "yomigana": "いりや",
+      "english": "Iriya"
     },
     {
       "station_name": "上野",
       "lon": 192,
       "lat": -214,
-      "alt": 65
+      "alt": 65,
+      "yomigana": "うえの",
+      "english": "Ueno"
     },
     {
       "station_name": "仲御徒町",
       "lon": 186,
       "lat": -243,
-      "alt": 77
+      "alt": 77,
+      "yomigana": "なかおかちまち",
+      "english": "Naka-okachimachi"
     },
     {
       "station_name": "秋葉原",
       "lon": 182,
       "lat": -294,
-      "alt": 78
+      "alt": 78,
+      "yomigana": "あきはばら",
+      "english": "Akihabara"
     },
     {
       "station_name": "小伝馬町",
       "lon": 200,
       "lat": -339,
-      "alt": 21
+      "alt": 21,
+      "yomigana": "こでんまちょう",
+      "english": "Kodemmacho"
     },
     {
       "station_name": "人形町",
       "lon": 223,
       "lat": -365,
-      "alt": 15
+      "alt": 15,
+      "yomigana": "にんぎょうちょう",
+      "english": "Ningyocho"
     },
     {
       "station_name": "茅場町",
       "lon": 209,
       "lat": -405,
-      "alt": 11
+      "alt": 11,
+      "yomigana": "かやばちょう",
+      "english": "Kayabacho"
     },
     {
       "station_name": "八丁堀",
       "lon": 191,
       "lat": -434,
-      "alt": 11
+      "alt": 11,
+      "yomigana": "はっちょうぼり",
+      "english": "Hatchobori"
     },
     {
       "station_name": "築地",
       "lon": 165,
       "lat": -474,
-      "alt": 8
+      "alt": 8,
+      "yomigana": "つきじ",
+      "english": "Tsukiji"
     },
     {
       "station_name": "東銀座",
       "lon": 133,
       "lat": -466,
-      "alt": 12
+      "alt": 12,
+      "yomigana": "ひがしぎんざ",
+      "english": "Higashi-ginza"
     },
     {
       "station_name": "銀座",
       "lon": 113,
       "lat": -451,
-      "alt": 16
+      "alt": 16,
+      "yomigana": "ぎんざ",
+      "english": "Ginza"
     },
     {
       "station_name": "日比谷",
       "lon": 90,
       "lat": -436,
-      "alt": 10
+      "alt": 10,
+      "yomigana": "ひびや",
+      "english": "Hibiya"
     },
     {
       "station_name": "霞ケ関",
       "lon": 34,
       "lat": -440,
-      "alt": 30
+      "alt": 30,
+      "yomigana": "かすみがせき",
+      "english": "Kasumigaseki"
     },
     {
       "station_name": "神谷町",
       "lon": -1,
       "lat": -505,
-      "alt": 36
+      "alt": 36,
+      "yomigana": "かみやちょう",
+      "english": "Kamiyacho"
     },
     {
       "station_name": "六本木",
       "lon": -82,
       "lat": -506,
-      "alt": 124
+      "alt": 124,
+      "yomigana": "ろっぽんぎ",
+      "english": "Roppongi"
     },
     {
       "station_name": "広尾",
       "lon": -138,
       "lat": -569,
-      "alt": 43
+      "alt": 43,
+      "yomigana": "ひろお",
+      "english": "Hiro-o"
     },
     {
       "station_name": "恵比寿",
       "lon": -217,
       "lat": -599,
-      "alt": 60
+      "alt": 60,
+      "yomigana": "えびす",
+      "english": "Ebisu"
     },
     {
       "station_name": "中目黒",
       "lon": -279,
       "lat": -620,
-      "alt": 38
+      "alt": 38,
+      "yomigana": "なかめぐろ",
+      "english": "Naka-meguro"
     }
   ],
   "東西": [
@@ -426,139 +565,185 @@
       "station_name": "中野",
       "lon": -476,
       "lat": -249,
-      "alt": 145
+      "alt": 145,
+      "yomigana": "なかの",
+      "english": "Nakano"
     },
     {
       "station_name": "落合",
       "lon": -347,
       "lat": -217,
-      "alt": 125
+      "alt": 125,
+      "yomigana": "おちあい",
+      "english": "Ochiai"
     },
     {
       "station_name": "高田馬場",
       "lon": -242,
       "lat": -203,
-      "alt": 66
+      "alt": 66,
+      "yomigana": "たかだのばば",
+      "english": "Takadanobaba"
     },
     {
       "station_name": "早稲田",
       "lon": -143,
       "lat": -249,
-      "alt": 61
+      "alt": 61,
+      "yomigana": "わせだ",
+      "english": "Waseda"
     },
     {
       "station_name": "神楽坂",
       "lon": -64,
       "lat": -260,
-      "alt": 102
+      "alt": 102,
+      "yomigana": "かぐらざか",
+      "english": "Kagurazaka"
     },
     {
       "station_name": "飯田橋",
       "lon": 5,
       "lat": -273,
-      "alt": 19
+      "alt": 19,
+      "yomigana": "いいだばし",
+      "english": "Iidabashi"
     },
     {
       "station_name": "九段下",
       "lon": 41,
       "lat": -310,
-      "alt": 20
+      "alt": 20,
+      "yomigana": "くだんした",
+      "english": "Kudanshita"
     },
     {
       "station_name": "竹橋",
       "lon": 70,
       "lat": -339,
-      "alt": 20
+      "alt": 20,
+      "yomigana": "たけばし",
+      "english": "Takebashi"
     },
     {
       "station_name": "大手町",
       "lon": 126,
       "lat": -364,
-      "alt": 13
+      "alt": 13,
+      "yomigana": "おおてまち",
+      "english": "Otemachi"
     },
     {
       "station_name": "日本橋",
       "lon": 170,
       "lat": -391,
-      "alt": 17
+      "alt": 17,
+      "yomigana": "にほんばし",
+      "english": "Nihombashi"
     },
     {
       "station_name": "茅場町",
       "lon": 209,
       "lat": -405,
-      "alt": 11
+      "alt": 11,
+      "yomigana": "かやばちょう",
+      "english": "Kayabacho"
     },
     {
       "station_name": "門前仲町",
       "lon": 306,
       "lat": -452,
-      "alt": 3
+      "alt": 3,
+      "yomigana": "もんぜんなかちょう",
+      "english": "Monzen-nakacho"
     },
     {
       "station_name": "木場",
       "lon": 371,
       "lat": -467,
-      "alt": 41
+      "alt": 41,
+      "yomigana": "きば",
+      "english": "Kiba"
     },
     {
       "station_name": "東陽町",
       "lon": 435,
       "lat": -465,
-      "alt": 58
+      "alt": 58,
+      "yomigana": "とうようちょう",
+      "english": "Toyocho"
     },
     {
       "station_name": "南砂町",
       "lon": 513,
       "lat": -470,
-      "alt": 20
+      "alt": 20,
+      "yomigana": "みなみすなまち",
+      "english": "Minami-sunamachi"
     },
     {
       "station_name": "西葛西",
       "lon": 685,
       "lat": -495,
-      "alt": 0
+      "alt": 0,
+      "yomigana": "にしかさい",
+      "english": "Nishi-kasai"
     },
     {
       "station_name": "葛西",
       "lon": 764,
       "lat": -502,
-      "alt": 1
+      "alt": 1,
+      "yomigana": "かさい",
+      "english": "Kasai"
     },
     {
       "station_name": "浦安",
       "lon": 888,
       "lat": -488,
-      "alt": 3
+      "alt": 3,
+      "yomigana": "うらやす",
+      "english": "Urayasu"
     },
     {
       "station_name": "南行徳",
       "lon": 943,
       "lat": -447,
-      "alt": 5
+      "alt": 5,
+      "yomigana": "みなみぎょうとく",
+      "english": "Minami-gyotoku"
     },
     {
       "station_name": "行徳",
       "lon": 1015,
       "lat": -387,
-      "alt": 10
+      "alt": 10,
+      "yomigana": "ぎょうとく",
+      "english": "Gyotoku"
     },
     {
       "station_name": "妙典",
       "lon": 1074,
       "lat": -338,
-      "alt": 5
+      "alt": 5,
+      "yomigana": "みょうでん",
+      "english": "Myoden"
     },
     {
       "station_name": "原木中山",
       "lon": 1181,
       "lat": -262,
-      "alt": 6
+      "alt": 6,
+      "yomigana": "ばらきなかやま",
+      "english": "Baraki-nakayama"
     },
     {
       "station_name": "西船橋",
       "lon": 1283,
       "lat": -240,
-      "alt": 10
+      "alt": 10,
+      "yomigana": "にしふなばし",
+      "english": "Nishi-funabashi"
     }
   ],
   "千代田": [
@@ -566,122 +751,163 @@
       "station_name": "北綾瀬",
       "lon": 521,
       "lat": 180,
-      "alt": 18
+      "alt": 18,
+      "yomigana": "きたあやせ",
+      "english": "Kita-ayase"
     },
     {
       "station_name": "綾瀬",
       "lon": 479,
       "lat": 90,
-      "alt": 48
+      "alt": 48,
+      "yomigana": "あやせ",
+      "english": "Ayase"
     },
     {
       "station_name": "北千住",
       "lon": 355,
       "lat": 10,
-      "alt": 34
+      "alt": 34,
+      "yomigana": "きたせんじゅ",
+      "english": "Kita-senju"
     },
     {
       "station_name": "町屋",
       "lon": 212,
       "lat": -27,
-      "alt": 43
+      "alt": 43,
+      "yomigana": "まちや",
+      "english": "Machiya"
     },
     {
       "station_name": "西日暮里",
       "lon": 128,
       "lat": -90,
-      "alt": 57
+      "alt": 57,
+      "yomigana": "にしにっぽり",
+      "english": "Nishi-nippori"
     },
     {
       "station_name": "千駄木",
       "lon": 109,
       "lat": -130,
-      "alt": 68
+      "alt": 68,
+      "yomigana": "せんだぎ",
+      "english": "Sendagi"
     },
     {
       "station_name": "根津",
       "lon": 123,
       "lat": -179,
-      "alt": 60
+      "alt": 60,
+      "yomigana": "ねづ",
+      "english": "Nezu"
     },
     {
       "station_name": "湯島",
       "lon": 149,
       "lat": -234,
-      "alt": 64
+      "alt": 64,
+      "yomigana": "ゆしま",
+      "english": "Yushima"
     },
     {
       "station_name": "新御茶ノ水",
       "lon": 125,
       "lat": -295,
-      "alt": 63
+      "alt": 63,
+      "yomigana": "しんおちゃのみず",
+      "english": "Shin-ochanomizu"
     },
     {
       "station_name": "大手町",
       "lon": 126,
       "lat": -364,
-      "alt": 13
+      "alt": 13,
+      "yomigana": "おおてまち",
+      "english": "Otemachi"
     },
     {
       "station_name": "二重橋前",
       "lon": 101,
       "lat": -397,
-      "alt": 11
+      "alt": 11,
+      "yomigana": "にじゅうばしまえ",
+      "english": "Nijubashimae"
     },
     {
       "station_name": "日比谷",
       "lon": 90,
       "lat": -436,
-      "alt": 10
+      "alt": 10,
+      "yomigana": "ひびや",
+      "english": "Hibiya"
     },
     {
       "station_name": "霞ケ関",
       "lon": 34,
       "lat": -440,
-      "alt": 30
+      "alt": 30,
+      "yomigana": "かすみがせき",
+      "english": "Kasumigaseki"
+
     },
     {
       "station_name": "国会議事堂前",
       "lon": 0,
       "lat": -440,
-      "alt": 101
+      "alt": 101,
+      "yomigana": "こっかいぎじどうまえ",
+      "english": "Kokkai-gijidomae"
     },
     {
       "station_name": "赤坂",
       "lon": -41,
       "lat": -444,
-      "alt": 35
+      "alt": 35,
+      "yomigana": "あかさか",
+      "english": "Akasaka"
     },
     {
       "station_name": "乃木坂",
       "lon": -114,
       "lat": -484,
-      "alt": 125
+      "alt": 125,
+      "yomigana": "のぎざか",
+      "english": "Nogizaka"
     },
     {
       "station_name": "表参道",
       "lon": -197,
       "lat": -492,
-      "alt": 134
+      "alt": 134,
+      "yomigana": "おもてさんどう",
+      "english": "Omote-sando"
     },
     {
       "station_name": "明治神宮前",
       "station_subname": "〈原宿〉",
       "lon": -247,
       "lat": -469,
-      "alt": 111
+      "alt": 111,
+      "yomigana": "めいじじんぐうまえ",
+      "english": "Meiji-jingumae"
     },
     {
       "station_name": "代々木公園",
       "lon": -336,
       "lat": -468,
-      "alt": 86
+      "alt": 86,
+      "yomigana": "よよぎこうえん",
+      "english": "Yoyogi-koen"
     },
     {
       "station_name": "代々木上原",
       "lon": -390,
       "lat": -468,
-      "alt": 118
+      "alt": 118,
+      "yomigana": "よよぎうえはら",
+      "english": "Yoyogi-uehara"
     }
   ],
   "有楽町": [
@@ -689,145 +915,193 @@
       "station_name": "和光市",
       "lon": -796,
       "lat": 248,
-      "alt": 141
+      "alt": 141,
+      "yomigana": "わこうし",
+      "english": "Wakoshi"
     },
     {
       "station_name": "地下鉄成増",
       "lon": -682,
       "lat": 176,
-      "alt": 166
+      "alt": 166,
+      "yomigana": "ちかてつなります",
+      "english": "Chikatetsu-narimasu"
     },
     {
       "station_name": "地下鉄赤塚",
       "lon": -607,
       "lat": 136,
-      "alt": 164
+      "alt": 164,
+      "yomigana": "ちかてつあかつか",
+      "english": "Chikatetsu-akatsuka"
     },
     {
       "station_name": "平和台",
       "lon": -548,
       "lat": 64,
-      "alt": 158
+      "alt": 158,
+      "yomigana": "へいわだい",
+      "english": "Heiwadai"
     },
     {
       "station_name": "氷川台",
       "lon": -478,
       "lat": 14,
-      "alt": 129
+      "alt": 129,
+      "yomigana": "ひかわだい",
+      "english": "Hikawadai"
     },
     {
       "station_name": "小竹向原",
       "lon": -399,
       "lat": -20,
-      "alt": 146
+      "alt": 146,
+      "yomigana": "こたけむかいはら",
+      "english": "Kotake-mukaihara"
     },
     {
       "station_name": "千川",
       "lon": -335,
       "lat": -54,
-      "alt": 147
+      "alt": 147,
+      "yomigana": "せんかわ",
+      "english": "Senkawa"
     },
     {
       "station_name": "要町",
       "lon": -279,
       "lat": -84,
-      "alt": 117
+      "alt": 117,
+      "yomigana": "かなめちょう",
+      "english": "Kanamecho"
     },
     {
       "station_name": "池袋",
       "lon": -204,
       "lat": -102,
-      "alt": 132
+      "alt": 132,
+      "yomigana": "いけぶくろ",
+      "english": "Ikebukuro"
     },
     {
       "station_name": "東池袋",
       "lon": -154,
       "lat": -129,
-      "alt": 112
+      "alt": 112,
+      "yomigana": "ひがしいけぶくろ",
+      "english": "Higashi-ikebukuro"
     },
     {
       "station_name": "護国寺",
       "lon": -106,
       "lat": -169,
-      "alt": 53
+      "alt": 53,
+      "yomigana": "ごこくじ",
+      "english": "Gokokuji"
     },
     {
       "station_name": "江戸川橋",
       "lon": -70,
       "lat": -226,
-      "alt": 22
+      "alt": 22,
+      "yomigana": "えどがわばし",
+      "english": "Edogawabashi"
     },
     {
       "station_name": "飯田橋",
       "lon": 5,
       "lat": -273,
-      "alt": 19
+      "alt": 19,
+      "yomigana": "いいだばし",
+      "english": "Iidabashi"
     },
     {
       "station_name": "市ケ谷",
       "lon": -52,
       "lat": -331,
-      "alt": 47
+      "alt": 47,
+      "yomigana": "いちがや",
+      "english": "Ichigaya"
     },
     {
       "station_name": "麹町",
       "lon": -45,
       "lat": -379,
-      "alt": 124
+      "alt": 124,
+      "yomigana": "こうじまち",
+      "english": "Kojimachi"
     },
     {
       "station_name": "永田町",
       "lon": -29,
       "lat": -411,
-      "alt": 119
+      "alt": 119,
+      "yomigana": "ながたちょう",
+      "english": "Nagatacho"
     },
     {
       "station_name": "桜田門",
       "lon": 38,
       "lat": -419,
-      "alt": 32
+      "alt": 32,
+      "yomigana": "さくらだもん",
+      "english": "Sakuradamon"
     },
     {
       "station_name": "有楽町",
       "lon": 109,
       "lat": -429,
-      "alt": 11
+      "alt": 11,
+      "yomigana": "ゆうらくちょう",
+      "english": "Yurakucho"
     },
     {
       "station_name": "銀座一丁目",
       "lon": 131,
       "lat": -437,
-      "alt": 13
+      "alt": 13,
+      "yomigana": "ぎんざいっちょうめ",
+      "english": "Ginza-itchome"
     },
     {
       "station_name": "新富町",
       "lon": 171,
       "lat": -460,
-      "alt": 0
+      "alt": 0,
+      "yomigana": "しんとみちょう",
+      "english": "Sintomicho"
     },
     {
       "station_name": "月島",
       "lon": 234,
       "lat": -494,
-      "alt": 8
+      "alt": 8,
+      "yomigana": "つきしま",
+      "english": "Tsukishima"
     },
     {
       "station_name": "豊洲",
       "lon": 306,
       "lat": -554,
-      "alt": 8
+      "alt": 8,
+      "yomigana": "とよす",
+      "english": "Toyosu"
     },
     {
       "station_name": "辰巳",
       "lon": 392,
       "lat": -610,
-      "alt": 25
+      "alt": 25,
+      "yomigana": "たつみ",
+      "english": "Tatsumi"
     },
     {
       "station_name": "新木場",
       "lon": 487,
       "lat": -608,
-      "alt": 61
+      "alt": 61,
+      "yomigana": "しんきば",
+      "english": "Shin-kiba"
     }
   ],
   "半蔵門": [
@@ -835,86 +1109,114 @@
       "station_name": "渋谷",
       "lon": -256,
       "lat": -526,
-      "alt": 72
+      "alt": 72,
+      "yomigana": "しぶや",
+      "english": "Shibuya"
     },
     {
       "station_name": "表参道",
       "lon": -197,
       "lat": -492,
-      "alt": 134
+      "alt": 134,
+      "yomigana": "おもてさんどう",
+      "english": "Omote-sando"
     },
     {
       "station_name": "青山一丁目",
       "lon": -126,
       "lat": -447,
-      "alt": 128
+      "alt": 128,
+      "yomigana": "あおやまいっちょうめ",
+      "english": "Aoyama-itchome"
     },
     {
       "station_name": "永田町",
       "lon": -29,
       "lat": -411,
-      "alt": 119
+      "alt": 119,
+      "yomigana": "ながたちょう",
+      "english": "Nagatacho"
     },
     {
       "station_name": "半蔵門",
       "lon": -21,
       "lat": -369,
-      "alt": 119
+      "alt": 119,
+      "yomigana": "はんぞうもん",
+      "english": "Hanzomon"
     },
     {
       "station_name": "九段下",
       "lon": 41,
       "lat": -310,
-      "alt": 20
+      "alt": 20,
+      "yomigana": "くだんした",
+      "english": "Kudanshita"
     },
     {
       "station_name": "神保町",
       "lon": 75,
       "lat": -307,
-      "alt": 15
+      "alt": 15,
+      "yomigana": "じんぼうちょう",
+      "english": "Jimbocho"
     },
     {
       "station_name": "大手町",
       "lon": 126,
       "lat": -364,
-      "alt": 13
+      "alt": 13,
+      "yomigana": "おおてまち",
+      "english": "Otemachi"
     },
     {
       "station_name": "三越前",
       "lon": 168,
       "lat": -374,
-      "alt": 18
+      "alt": 18,
+      "yomigana": "みつこしまえ",
+      "english": "Mitsukoshimae"
     },
     {
       "station_name": "水天宮前",
       "lon": 241,
       "lat": -387,
-      "alt": 6
+      "alt": 6,
+      "yomigana": "すいてんぐうまえ",
+      "english": "Suitengumae"
     },
     {
       "station_name": "清澄白河",
       "lon": 322,
       "lat": -391,
-      "alt": 34
+      "alt": 34,
+      "yomigana": "きよすみしらかわ",
+      "english": "Kiyosumi-shirakawa"
     },
     {
       "station_name": "住吉",
       "lon": 423,
       "lat": -349,
-      "alt": 32
+      "alt": 32,
+      "yomigana": "すみよし",
+      "english": "Sumiyoshi"
     },
     {
       "station_name": "錦糸町",
       "lon": 419,
       "lat": -298,
-      "alt": 35
+      "alt": 35,
+      "yomigana": "きんしちょう",
+      "english": "Kinshicho"
     },
     {
       "station_name": "押上",
       "station_subname": "〈スカイツリー前〉",
       "lon": 407,
       "lat": -219,
-      "alt": 10
+      "alt": 10,
+      "yomigana": "おしあげ",
+      "english": "Oshiage"
     }
   ],
   "南北": [
@@ -922,115 +1224,153 @@
       "station_name": "赤羽岩淵",
       "lon": -138,
       "lat": 217,
-      "alt": 29
+      "alt": 29,
+      "yomigana": "あかばねいわぶち",
+      "english": "Akabane-iwabuchi"
     },
     {
       "station_name": "志茂",
       "lon": -75,
       "lat": 185,
-      "alt": 32
+      "alt": 32,
+      "yomigana": "しも",
+      "english": "Shimo"
     },
     {
       "station_name": "王子神谷",
       "lon": -55,
       "lat": 108,
-      "alt": 36
+      "alt": 36,
+      "yomigana": "おうじかみや",
+      "english": "Oji-kamiya"
     },
     {
       "station_name": "王子",
       "lon": -45,
       "lat": 41,
-      "alt": 55
+      "alt": 55,
+      "yomigana": "おうじ",
+      "english": "Oji"
     },
     {
       "station_name": "西ケ原",
       "lon": -17,
       "lat": -7,
-      "alt": 118
+      "alt": 118,
+      "yomigana": "にしがはら",
+      "english": "Nishigahara"
     },
     {
       "station_name": "駒込",
       "lon": 8,
       "lat": -61,
-      "alt": 135
+      "alt": 135,
+      "yomigana": "こまごめ",
+      "english": "Komagome"
     },
     {
       "station_name": "本駒込",
       "lon": 52,
       "lat": -138,
-      "alt": 127
+      "alt": 127,
+      "yomigana": "ほんこまごめ",
+      "english": "Hon-komagome"
     },
     {
       "station_name": "東大前",
       "lon": 77,
       "lat": -177,
-      "alt": 116
+      "alt": 116,
+      "yomigana": "とうだいまえ",
+      "english": "Todaimae"
     },
     {
       "station_name": "後楽園",
       "lon": 40,
       "lat": -236,
-      "alt": 30
+      "alt": 30,
+      "yomigana": "こうらくえん",
+      "english": "Korakuen"
     },
     {
       "station_name": "飯田橋",
       "lon": 5,
       "lat": -273,
-      "alt": 19
+      "alt": 19,
+      "yomigana": "いいだばし",
+      "english": "Iidabashi"
     },
     {
       "station_name": "市ケ谷",
       "lon": -52,
       "lat": -331,
-      "alt": 47
+      "alt": 47,
+      "yomigana": "いちがや",
+      "english": "Ichigaya"
     },
     {
       "station_name": "四ツ谷",
       "lon": -94,
       "lat": -367,
-      "alt": 118
+      "alt": 118,
+      "yomigana": "よつや",
+      "english": "Yotsuya"
     },
     {
       "station_name": "永田町",
       "lon": -29,
       "lat": -411,
-      "alt": 119
+      "alt": 119,
+      "yomigana": "ながたちょう",
+      "english": "Nagatacho"
     },
     {
       "station_name": "溜池山王",
       "lon": -22,
       "lat": -441,
-      "alt": 38
+      "alt": 38,
+      "yomigana": "ためいけさんのう",
+      "english": "Tameike-sanno"
     },
     {
       "station_name": "六本木一丁目",
       "lon": -37,
       "lat": -490,
-      "alt": 66
+      "alt": 66,
+      "yomigana": "ろっぽんぎいっちょうめ",
+      "english": "Roppongi-itchome"
     },
     {
       "station_name": "麻布十番",
       "lon": -49,
       "lat": -555,
-      "alt": 19
+      "alt": 19,
+      "yomigana": "あざぶじゅうばん",
+      "english": "Azabu-juban"
     },
     {
       "station_name": "白金高輪",
       "lon": -66,
       "lat": -626,
-      "alt": 42
+      "alt": 42,
+      "yomigana": "しろかねたかなわ",
+      "english": "Shirokane-takanawa"
     },
     {
       "station_name": "白金台",
       "lon": -114,
       "lat": -656,
-      "alt": 120
+      "alt": 120,
+      "yomigana": "しろかねだい",
+      "english": "Shirokanedai"
     },
     {
       "station_name": "目黒",
       "lon": -178,
       "lat": -684,
-      "alt": 121
+      "alt": 121,
+      "yomigana": "めぐろ",
+      "english": "Meguro"
     }
   ],
   "副都心": [
@@ -1039,105 +1379,137 @@
       "hidden": true,
       "lon": -796,
       "lat": 248,
-      "alt": 141
+      "alt": 141,
+      "yomigana": "わこうし",
+      "english": "Wakoshi"
     },
     {
       "station_name": "地下鉄成増",
       "hidden": true,
       "lon": -682,
       "lat": 176,
-      "alt": 166
+      "alt": 166,
+      "yomigana": "ちかてつなります",
+      "english": "Chikatetsu-narimasu"
     },
     {
       "station_name": "地下鉄赤塚",
       "hidden": true,
       "lon": -607,
       "lat": 136,
-      "alt": 164
+      "alt": 164,
+      "yomigana": "ちかてつあかつか",
+      "english": "Chikatetsu-akatsuka"
     },
     {
       "station_name": "平和台",
       "hidden": true,
       "lon": -548,
       "lat": 64,
-      "alt": 158
+      "alt": 158,
+      "yomigana": "へいわだい",
+      "english": "Heiwadai"
     },
     {
       "station_name": "氷川台",
       "hidden": true,
       "lon": -478,
       "lat": 14,
-      "alt": 129
+      "alt": 129,
+      "yomigana": "ひかわだい",
+      "english": "Hikawadai"
     },
     {
       "station_name": "小竹向原",
       "hidden": true,
       "lon": -399,
       "lat": -20,
-      "alt": 146
+      "alt": 146,
+      "yomigana": "こたけむかいはら",
+      "english": "Kotake-mukaihara"
     },
     {
       "station_name": "千川",
       "hidden": true,
       "lon": -335,
       "lat": -54,
-      "alt": 147
+      "alt": 147,
+      "yomigana": "せんかわ",
+      "english": "Senkawa"
     },
     {
       "station_name": "要町",
       "hidden": true,
       "lon": -279,
       "lat": -84,
-      "alt": 117
+      "alt": 117,
+      "yomigana": "かなめちょう",
+      "english": "Kanamecho"
     },
     {
       "station_name": "池袋",
       "lon": -204,
       "lat": -102,
-      "alt": 132
+      "alt": 132,
+      "yomigana": "いけぶくろ",
+      "english": "Ikebukuro"
     },
     {
       "station_name": "雑司が谷",
       "lon": -182,
       "lat": -162,
-      "alt": 118
+      "alt": 118,
+      "yomigana": "ぞうしがや",
+      "english": "Zoshigaya"
     },
     {
       "station_name": "西早稲田",
       "lon": -216,
       "lat": -234,
-      "alt": 110
+      "alt": 110,
+      "yomigana": "にしわせだ",
+      "english": "Nishi-waseda"
     },
     {
       "station_name": "東新宿",
       "lon": -225,
       "lat": -290,
-      "alt": 125
+      "alt": 125,
+      "yomigana": "ひがししんじゅく",
+      "english": "Higashi-shinjuku"
     },
     {
       "station_name": "新宿三丁目",
       "lon": -242,
       "lat": -338,
-      "alt": 148
+      "alt": 148,
+      "yomigana": "しんじゅくさんちょうめ",
+      "english": "Shinjuku-sanchome"
     },
     {
       "station_name": "北参道",
       "lon": -238,
       "lat": -412,
-      "alt": 103
+      "alt": 103,
+      "yomigana": "きたさんどう",
+      "english": "Kita-sando"
     },
     {
       "station_name": "明治神宮前",
       "station_subname": "〈原宿〉",
       "lon": -247,
       "lat": -469,
-      "alt": 111
+      "alt": 111,
+      "yomigana": "めいじじんぐうまえ",
+      "english": "Meiji-jingumae"
     },
     {
       "station_name": "渋谷",
       "lon": -256,
       "lat": -526,
-      "alt": 72
+      "alt": 72,
+      "yomigana": "しぶや",
+      "english": "Shibuya"
     }
   ]
 }

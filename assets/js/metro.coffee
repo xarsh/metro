@@ -23,7 +23,6 @@ init = ->
   controls.addEventListener('change', render)
 
   scene = new THREE.Scene()
-  scene.add new THREE.DirectionalLight(0x444444)
 
   renderer = new THREE.WebGLRenderer({antialias: true})
   renderer.setSize window.innerWidth, window.innerHeight
@@ -48,6 +47,8 @@ onWindowMouseMove = (e) ->
 onWindowMouseDown = (e) ->
   if(onStation)
     vue.stationName =  obj.station.station_name
+    vue.stationYomigana = obj.station.yomigana
+    vue.stationEnglish = obj.station.english
     vue.stationSubName = obj.station.stationSubName
     vue.stationAddress = obj.station.stationAddress
     vue.lines = ({line: l} for l in transferList[obj.station.station_name])
@@ -66,14 +67,14 @@ render = ->
 
 prepare = ->
   $ ->
-    $.getJSON('./js/lines.json', (lines)=>
+    $.getJSON('./js/linedata.json', (lines)=>
       for lineName, stations of lines
         path = new THREE.SplineCurve3(new THREE.Vector3(s.lon, s.lat, s.alt) for s in stations when !s.hidden)
         tube = new THREE.TubeGeometry(path, 96, 3, 12, false, false)
-        lineGroup.add new THREE.Mesh(tube, new THREE.MeshLambertMaterial(emissive: color[lineName] || 0xe60012))
+        lineGroup.add new THREE.Mesh(tube, new THREE.MeshBasicMaterial(color: color[lineName] || 0xe60012))
 
         for index, s of stations
-          mesh = new THREE.Mesh(new THREE.SphereGeometry(6, 8, 8), new THREE.MeshLambertMaterial(emissive: 0xffffff))
+          mesh = new THREE.Mesh(new THREE.SphereGeometry(6, 8, 8), new THREE.MeshBasicMaterial(color: 0xffffff))
           mesh.station = s
           mesh.position.set(s.lon, s.lat, s.alt)
           stationGroup.add(mesh)
@@ -105,14 +106,18 @@ update = ->
 $ ->
   $('.title li:nth-child(1) a').click ->
     stationGroup.visible = !stationGroup.visible
+    $(@).toggleClass('on')
     render()
 
   $('.title li:nth-child(2) a').click ->
     lineGroup.visible = !lineGroup.visible
+    $(@).toggleClass('on')
     render()
 
   $('.title li:nth-child(3) a').click ->
     $('.station-detail').toggleClass("opened")
+    if($('.station-detail').hasClass('opened'))
+      $(@).toggleClass('on')
     render()
 
 

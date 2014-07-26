@@ -13,13 +13,15 @@ html
     .title 
       h1 東京メトロ 3D路線図
       ul
-        li: a(href='#') Stations
-        li: a(href='#') Lines
+        li: a.on(href='#') Stations
+        li: a.on(href='#') Lines
         li: a(href='#') Information
 
     .tooltip name
     .station-detail
+      .yomigana(v-html='stationYomigana')
       .name(v-html='stationName')
+      .english(v-html='stationEnglish')
       .subname(v-html='stationSubName')
       .address(v-html='stationAddress')
       ul.transfer
