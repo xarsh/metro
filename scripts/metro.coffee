@@ -68,7 +68,7 @@ render = ->
 
 prepare = ->
   $ ->
-    $.getJSON('./js/linedata.json', (lines)=>
+    $.getJSON('./scripts/linedata.json', (lines)=>
       for lineName, stations of lines
         path = new THREE.SplineCurve3(new THREE.Vector3(s.lon, s.lat, s.alt) for s in stations when !s.hidden)
         tube = new THREE.TubeGeometry(path, 96, 3, 12, false, false)
@@ -124,4 +124,3 @@ $ ->
 init()
 animate()
 prepare()
-

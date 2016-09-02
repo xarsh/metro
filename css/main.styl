@@ -1,0 +1,104 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video
+  margin 0
+  padding 0
+  border 0
+  font-size 100%
+  font inherit
+  vertical-align baseline
+
+body
+  font-family sans-serif
+  color white
+  background #000
+  margin 0
+  overflow hidden
+a
+  color white
+  text-decoration none
+
+.title
+  position absolute
+  top 0
+  left 0
+  width 100%
+  height 40px
+  color white
+  background #777
+
+  h1
+    font-size 20px
+    line-height 40px
+    margin-left 30px
+    float left
+
+  ul
+    float right
+    list-style-type none
+  li
+    display inline-block
+    line-height 40px
+    margin-right 20px
+  a
+    color #bbb
+    &.on
+      text-shadow 0px 0px 3px white
+      color white
+
+.tooltip
+  position absolute
+  top 0
+  left 0
+  display none
+  background #5b7e91
+  border 2px solid #5b7e91 - #333
+  padding 3px 10px
+  color white
+  font-size 12px
+
+.station-detail
+  position absolute
+  top 0px
+  right -300px
+  width 300px
+  height 100%
+  margin-top 40px
+  background #32506A
+  color white
+  text-align center
+  transition all 0.3s
+  &.opened
+    right 0
+  & > *
+    margin-top 20px
+  .name
+    font-weight bold
+    font-size 32px
+  .subname
+    font-weight bold
+    font-size 22px
+  .address
+    font-size 16px
+  .line
+    line-height 36px
+    display block
+    img
+      vertical-align middle
+      margin-right 5px
+
+.signature
+  position absolute
+  bottom 20px
+  left 20px
+  font-size 12px

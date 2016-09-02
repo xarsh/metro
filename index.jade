@@ -1,0 +1,25 @@
+.title
+  h1 東京メトロ 3D路線図
+  ul
+    li: a.on(href='#') Stations
+    li: a.on(href='#') Lines
+    li: a(href='#') Information
+
+.tooltip name
+.station-detail
+  .yomigana(v-html='stationYomigana')
+  .name(v-html='stationName')
+  .english(v-html='stationEnglish')
+  .subname(v-html='stationSubName')
+  .address(v-html='stationAddress')
+  ul.transfer
+    li.line(v-repeat='lines')
+      img(v-attr='src:"images/"+line+".png"', width='24px')
+      span.line-name {{line}}線
+
+.signature
+  a(href='http://xar.sh') Takao Naito
+  span= ' - '
+  a(href='https://github.com/xarsh/metro') Github
+  span= ' - '
+  a(href='https://twitter.com/xar_sh') Twitter

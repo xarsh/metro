@@ -1,12 +1,8 @@
-東京メトロ 3D路線図
+Tokyo Metro 3D Map
 =================
-東京メトロがめっちゃ好きで、気がついたら路線図を作ってしまいました。
-マウスで操作もできます。
 
-[Live Demo](http://s46.net/metro/)
+Because I love Tokyo Metro, I made the 3D map.
 
-駅の位置情報は[駅データ.jp](http://www.ekidata.jp/)のものを利用させていただきました。
-
-To Me Cardの還元率があがるといいなぁ。
+[Live Demo](http://xar.sh/works/metro/)
 
 ![screen shot](https://farm6.staticflickr.com/5577/14545593198_bc197f2044_b_d.jpg)

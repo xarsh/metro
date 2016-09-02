@@ -1,0 +1,16 @@
+doctype
+html
+  head
+    meta(charset='utf8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge, chrome=1')
+    meta(name='description', content='Tokyo Metro 3D map')
+    meta(name='author', content='Takao Naito (xarsh@outlook.com)')
+    title Tokyo Metro 3D map
+    link(rel="stylesheet" href="css/main.css")
+  body
+    != yield
+    script(src='//cdnjs.cloudflare.com/ajax/libs/zepto/1.1.4/zepto.min.js')
+    script(src='//cdnjs.cloudflare.com/ajax/libs/vue/0.10.5/vue.min.js')
+    script(src='//cdnjs.cloudflare.com/ajax/libs/three.js/r68/three.min.js')
+    script(src='scripts/orbitcontrols.js')
+    script(src='scripts/metro.js')
